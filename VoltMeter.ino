@@ -5,8 +5,10 @@
 */
 
 // the setup function runs once when you press reset or power the board
+
+float input_voltage = 0.0f;		//Initalize global value
+
 void setup() {
-	float input_voltage = 0.0f;
 	Serial.begin(9600);			//  start Serial Monitor @ a transfer rate 9600 bits per second
 }
 
